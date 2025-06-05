@@ -254,7 +254,6 @@ header {
     background: linear-gradient(to top, 
       #e3e6e6 20%, 
       rgba(255,255,255,0) 80%), url(image/hero_image.jpg);
-    background-color: white;
     width: 100vw;
     height: 600px;
     background-size: cover;
