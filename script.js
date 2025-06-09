@@ -12,3 +12,14 @@ window.addEventListener('resize', function() {
     const headerHeight = document.querySelector('header').offsetHeight;
     document.querySelector('main').style.marginTop = headerHeight + 'px';
 });
+
+const scroll = new LocomotiveScroll ({
+    el: document.querySelector('#main'),
+    smooth: true
+});
+
+const back_to_top = document.querySelector("#back-to-top-link");
+
+back_to_top.addEventListener("click", () => {
+    scroll.scrollTo(0);
+})

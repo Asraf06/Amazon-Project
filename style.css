@@ -12,8 +12,8 @@ body {
 header {
     width: 100vw;
     z-index: 9999;
-    position: fixed;
-    top: 0;
+    /* position: fixed; */
+    /* top: 0; */
 }
 
 .nav-bar {
@@ -27,8 +27,8 @@ header {
 }
 
 .nav-logo {
-    width: 180px;
-    height: 60px;
+    width: 12vw;
+    height: 4vw;
 }
 
 .logo {
@@ -59,7 +59,7 @@ header {
 
 .nav-address>p {
     color: #ccc;
-    font-size: 0.75rem;
+    font-size: 0.9vw;
     cursor: pointer;
     margin-left: 18px;
 }
@@ -72,13 +72,13 @@ header {
 }
 
 .address-icon>i {
-    font-size: 20px;
+    font-size: 1.4vw;
     position: relative;
     top: -5px;
 }
 
 .address-icon>p {
-    font-size: 0.875rem;
+    font-size: 1.2vw;
     font-weight: 700;
     margin-left: 3px;
 }
@@ -209,11 +209,11 @@ header {
 }
 
 .nav-sprite-all > i {
-    font-size: 1.3rem;
+    font-size: 1.5vw;
 }
 
 .nav-sprite-all > p{
-    font-size: 1rem;
+    font-size: 1.4vw;
     font-weight: 700;
 }
 
@@ -228,6 +228,7 @@ header {
 .xshop > a {
     display: flex;
     align-items: center;
+    font-size: 1vw;
     padding-left: 0.4rem;
     padding-right: 0.4rem;
     text-decoration: none;
@@ -243,6 +244,7 @@ header {
 .xshop-deals > a {  
     display: flex;
     align-items: center;
+    font-size: 1vw;
     padding-left: 0.4rem;
     padding-right: 0.4rem;
     text-decoration: none;
@@ -250,7 +252,7 @@ header {
 }
 
 .hero-section {
-    margin-top: 100px;
+    /* margin-top: 100px; */
     background: linear-gradient(to top, 
       #e3e6e6 20%, 
       rgba(255,255,255,0) 80%), url(image/hero_image.jpg);
